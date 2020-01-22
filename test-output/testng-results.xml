@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21757" started-at="2020-01-22T15:01:56Z" finished-at="2020-01-22T15:02:18Z">
+  <suite name="Default suite" duration-ms="22315" started-at="2020-01-22T15:29:33Z" finished-at="2020-01-22T15:29:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21757" started-at="2020-01-22T15:01:56Z" finished-at="2020-01-22T15:02:18Z">
+    <test name="Default test" duration-ms="22315" started-at="2020-01-22T15:29:33Z" finished-at="2020-01-22T15:29:55Z">
       <class name="TestCases.TC_LoginAdmin">
-        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="openDriver" is-config="true" duration-ms="4018" started-at="2020-01-22T20:31:56Z" finished-at="2020-01-22T20:32:00Z">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="openDriver" is-config="true" duration-ms="4219" started-at="2020-01-22T20:59:33Z" finished-at="2020-01-22T20:59:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDriver -->
-        <test-method status="PASS" signature="loginToAdmin()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="loginToAdmin" duration-ms="17661" started-at="2020-01-22T20:32:00Z" finished-at="2020-01-22T20:32:18Z">
+        <test-method status="PASS" signature="loginToAdmin()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="loginToAdmin" duration-ms="18024" started-at="2020-01-22T20:59:37Z" finished-at="2020-01-22T20:59:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAdmin -->
-        <test-method status="PASS" signature="driverClose()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="driverClose" is-config="true" duration-ms="71" started-at="2020-01-22T20:32:18Z" finished-at="2020-01-22T20:32:18Z">
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:TestCases.TC_LoginAdmin@6b71769e]" name="driverClose" is-config="true" duration-ms="68" started-at="2020-01-22T20:59:55Z" finished-at="2020-01-22T20:59:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
