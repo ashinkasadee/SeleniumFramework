@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12220" started-at="2019-12-31T08:40:27Z" finished-at="2019-12-31T08:40:39Z">
+  <suite name="TS_Admin" duration-ms="32256" started-at="2020-01-22T19:06:04Z" finished-at="2020-01-22T19:06:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12220" started-at="2019-12-31T08:40:27Z" finished-at="2019-12-31T08:40:39Z">
-      <class name="TestCases.TC_LoginAdmin">
-        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestCases.TC_LoginAdmin@7cf10a6f]" name="openDriver" is-config="true" duration-ms="4290" started-at="2019-12-31T14:10:27Z" finished-at="2019-12-31T14:10:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openDriver -->
-        <test-method status="PASS" signature="loginToAdmin()[pri:0, instance:TestCases.TC_LoginAdmin@7cf10a6f]" name="loginToAdmin" duration-ms="7847" started-at="2019-12-31T14:10:32Z" finished-at="2019-12-31T14:10:39Z">
+    <test name="Test" duration-ms="32256" started-at="2020-01-22T19:06:04Z" finished-at="2020-01-22T19:06:36Z">
+      <class name="TestCases.TC_LoginAdminWithExtentReports">
+        <test-method status="PASS" signature="loginToAdmin()[pri:0, instance:TestCases.TC_LoginAdminWithExtentReports@58ceff1]" name="loginToAdmin" duration-ms="10593" started-at="2020-01-23T00:36:25Z" finished-at="2020-01-23T00:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToAdmin -->
-        <test-method status="PASS" signature="driverClose()[pri:0, instance:TestCases.TC_LoginAdmin@7cf10a6f]" name="driverClose" is-config="true" duration-ms="73" started-at="2019-12-31T14:10:39Z" finished-at="2019-12-31T14:10:39Z">
+      </class> <!-- TestCases.TC_LoginAdminWithExtentReports -->
+      <class name="TestCases.TC_LoginAdmin">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestCases.TC_LoginAdmin@35bbe5e8]" name="openDriver" is-config="true" duration-ms="4538" started-at="2020-01-23T00:36:04Z" finished-at="2020-01-23T00:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestCases.TC_LoginAdminWithExtentReports@58ceff1]" name="openDriver" is-config="true" duration-ms="3311" started-at="2020-01-23T00:36:08Z" finished-at="2020-01-23T00:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="loginToAdmin()[pri:0, instance:TestCases.TC_LoginAdmin@35bbe5e8]" name="loginToAdmin" duration-ms="13673" started-at="2020-01-23T00:36:11Z" finished-at="2020-01-23T00:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAdmin -->
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:TestCases.TC_LoginAdmin@35bbe5e8]" name="driverClose" is-config="true" duration-ms="61" started-at="2020-01-23T00:36:36Z" finished-at="2020-01-23T00:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:TestCases.TC_LoginAdminWithExtentReports@58ceff1]" name="driverClose" is-config="true" duration-ms="71" started-at="2020-01-23T00:36:36Z" finished-at="2020-01-23T00:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverClose -->
       </class> <!-- TestCases.TC_LoginAdmin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- TS_Admin -->
 </testng-results>
