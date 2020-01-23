@@ -1,7 +1,13 @@
 <suite name="TS_Admin">
-	<test name="Test">
+	<test name="LoginAdmin">
 		<classes>
 			<class name="TestCases.TC_LoginAdmin" />
+			<!--
+			<methods> 
+			<include name="loginToAdmin"/> 
+			<include name="loginToAdmin"/>  // If we don't want we can have exclude instead include 
+			
+			</methods> -->
 			<class name="TestCases.TC_LoginAdminWithExtentReports" />
 		</classes>
 	</test>
